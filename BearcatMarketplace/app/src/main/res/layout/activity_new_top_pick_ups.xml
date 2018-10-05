@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#325438"
-    tools:context=".TopPickUpsActivity">
-
+    tools:context=".NewTopPickUps">
 
     <SearchView
         android:id="@+id/searchView"
@@ -127,8 +126,8 @@
         android:layout_marginEnd="234dp"
         android:layout_marginStart="70dp"
         android:layout_marginTop="5dp"
-        android:text="Table $15"
-        android:textColor="@android:color/holo_orange_light"
+        android:text="ITEM SOLD"
+        android:textColor="@android:color/holo_red_light"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton"
         app:layout_constraintEnd_toEndOf="parent"
