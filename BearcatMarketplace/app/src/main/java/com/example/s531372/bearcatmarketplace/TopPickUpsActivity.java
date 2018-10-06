@@ -18,4 +18,10 @@ public class TopPickUpsActivity extends Activity {
         Intent init = new Intent(this,ShopByCategory.class);
         startActivity(init);
     }
+
+    public void filterFtn(View v){
+
+        Intent init = new Intent(this,detaildesc.class);
+        startActivity(init);
+    }
 }
