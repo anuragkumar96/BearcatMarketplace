@@ -2,4 +2,9 @@
     <string name="app_name">Bearcat Marketplace</string>
     <string name="title_activity_new_top_pick_ups">NewTopPickUps</string>
     <string name="title_activity_detaildesc">detaildesc</string>
+    <string name="BIKE">BIKE</string>
+    <string name="BOOKS">BOOKS</string>
+    <string name="ROOMS">ROOMS</string>
+    <string name="CHAIRS">CHAIRS</string>
+    <string name="TABLES">TABLES</string>
 </resources>
