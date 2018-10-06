@@ -18,4 +18,10 @@ public class detaildesc extends Activity {
         Intent init = new Intent(this,ChatActivity.class);
         startActivity(init);
     }
+
+    public void cartFn(View v){
+
+        Intent init = new Intent(this,CartActivity.class);
+        startActivity(init);
+    }
 }
