@@ -7,4 +7,6 @@
     <string name="ROOMS">ROOMS</string>
     <string name="CHAIRS">CHAIRS</string>
     <string name="TABLES">TABLES</string>
-</resources>
+<string name="input">Write a message</string>
+    </resources>
+

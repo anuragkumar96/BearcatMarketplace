@@ -5,17 +5,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ShopByCategory extends Activity {
+public class ChatActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shop_by_category);
+        setContentView(R.layout.activity_chat);
     }
 
-    public void submitFn(View v){
+    public void CloseFn(View v){
 
-        Intent init = new Intent(this,TablesActivty.class);
+        Intent init = new Intent(this,detaildesc.class);
         startActivity(init);
     }
 }

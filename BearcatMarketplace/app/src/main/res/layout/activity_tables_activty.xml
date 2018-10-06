@@ -10,6 +10,7 @@
         android:id="@+id/imageButton6"
         android:layout_width="177dp"
         android:layout_height="134dp"
+        android:onClick="tablesFn"
         android:src="@drawable/full_product_image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
