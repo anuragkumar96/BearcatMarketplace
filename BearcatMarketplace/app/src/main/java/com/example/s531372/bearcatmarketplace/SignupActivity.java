@@ -138,7 +138,7 @@ public class SignupActivity extends Activity implements View.OnClickListener {
             return;
         }
 
-        
+
 
       firebaseAuth.createUserWithEmailAndPassword(userName,passWord).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
          @Override
