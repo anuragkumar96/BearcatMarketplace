@@ -33,7 +33,8 @@
         <activity android:name=".PaymentActivity" />
         <activity android:name=".layout" />
         <activity android:name=".BikeActivity" />
-        <activity android:name=".ChairActivity"></activity>
+        <activity android:name=".ChairActivity" />
+        <activity android:name=".RoomActivity"></activity>
     </application>
 
 </manifest>
