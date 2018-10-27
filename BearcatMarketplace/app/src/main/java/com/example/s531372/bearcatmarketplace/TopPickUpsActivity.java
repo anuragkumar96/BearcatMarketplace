@@ -19,9 +19,27 @@ public class TopPickUpsActivity extends Activity {
         startActivity(init);
     }
 
-    public void filterFtn(View v){
+    public void tables(View v){
 
         Intent init = new Intent(this,detaildesc.class);
+        startActivity(init);
+    }
+
+    public void chairsfn(View v){
+
+        Intent init = new Intent(this,ChairActivity.class);
+        startActivity(init);
+    }
+
+    public void booksFn(View v){
+
+        Intent init = new Intent(this,BookActivity.class);
+        startActivity(init);
+    }
+
+    public void bikesFn(View v){
+
+        Intent init = new Intent(this,BikeActivity.class);
         startActivity(init);
     }
 }
