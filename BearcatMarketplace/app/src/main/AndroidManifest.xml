@@ -31,11 +31,11 @@
         <activity android:name=".ChatActivity" />
         <activity android:name=".CartActivity" />
         <activity android:name=".PaymentActivity" />
-        <activity android:name=".layout" />
         <activity android:name=".BikeActivity" />
         <activity android:name=".ChairActivity" />
         <activity android:name=".RoomActivity" />
-        <activity android:name=".BookActivity"></activity>
+        <activity android:name=".BookActivity" />
+        <activity android:name=".CustomListAdapter"></activity>
     </application>
 
 </manifest>
