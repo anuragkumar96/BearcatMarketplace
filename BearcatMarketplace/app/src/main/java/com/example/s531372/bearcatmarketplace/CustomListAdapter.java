@@ -34,7 +34,27 @@ public class CustomListAdapter extends ArrayAdapter<String> {
 
         txtTitle.setText(itemname[position]);
         imageView.setImageResource(imgid[position]);
-        extratxt.setText("Description "+itemname[position]);
+        if(position == 0) {
+
+
+            extratxt.setText("Upto $300" );
+            return rowView;
+        }
+        else if(position == 1)
+        {
+            extratxt.setText("Upto $100" );
+            return rowView;
+        }
+        else if(position == 2)
+        {
+            extratxt.setText("Upto $500 ");
+            return rowView;
+        }
+        else if(position == 3)
+        {
+            extratxt.setText("Upto $100" );
+            return rowView;
+        }
         return rowView;
 
     };
