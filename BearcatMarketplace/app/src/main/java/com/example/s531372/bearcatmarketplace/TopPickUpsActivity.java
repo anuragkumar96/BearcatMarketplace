@@ -21,7 +21,7 @@ public class TopPickUpsActivity extends Activity {
             "Table",
             "Book",
             "Bike",
-            "Chair"
+            "Chair","Round table","Wooden table","java","java2","cycle1","cycle2","metal chair","arm chair"
 
     };
 
@@ -30,6 +30,14 @@ public class TopPickUpsActivity extends Activity {
             R.drawable.kjik,
             R.drawable.erjg,
             R.drawable.download,
+            R.drawable.table2,
+            R.drawable.table3,
+            R.drawable.javabook,
+            R.drawable.java2,
+            R.drawable.cycle2,
+            R.drawable.cycle3,
+            R.drawable.armchair,
+            R.drawable.metal,
 
     };
 

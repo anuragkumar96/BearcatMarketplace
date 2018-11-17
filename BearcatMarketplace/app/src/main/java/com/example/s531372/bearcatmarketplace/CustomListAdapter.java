@@ -55,6 +55,52 @@ public class CustomListAdapter extends ArrayAdapter<String> {
             extratxt.setText("Upto $100" );
             return rowView;
         }
+        else if(position == 4)
+        {
+            extratxt.setText("Upto $150 ");
+            return rowView;
+        }
+        else if(position == 5)
+        {
+            extratxt.setText("Upto $200 ");
+            return rowView;
+        }
+        else if(position == 6)
+        {
+            extratxt.setText("Upto $100 ");
+            return rowView;
+        }
+        else if(position == 7)
+        {
+            extratxt.setText("Upto $250 ");
+            return rowView;
+        }
+        else if(position == 8)
+        {
+            extratxt.setText("Upto $150 ");
+            return rowView;
+        }
+        else if(position == 9)
+        {
+            extratxt.setText("Upto $200 ");
+            return rowView;
+        }
+        else if(position == 10)
+        {
+            extratxt.setText("Upto $200 ");
+            return rowView;
+        }
+
+        else if(position == 11)
+        {
+            extratxt.setText("Upto $120 ");
+            return rowView;
+        }
+        else if(position == 12)
+        {
+            extratxt.setText("Upto $140 ");
+            return rowView;
+        }
         return rowView;
 
     };
