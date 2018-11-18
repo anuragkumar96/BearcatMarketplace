@@ -89,11 +89,11 @@
         android:text="Price : $15"
         android:textColor="@android:color/holo_orange_light"
         android:textSize="18sp"
-<<<<<<< HEAD
+
         app:layout_constraintBottom_toTopOf="@+id/productID"
-=======
+
         app:layout_constraintBottom_toBottomOf="parent"
->>>>>>> 98e30d6d041d95b99c20456ec241d4713900cc09
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,12 +115,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintTop_toBottomOf="@+id/productID" />
-=======
+
+        app:layout_constraintTop_toBottomOf="@+id/productID"
+
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.849" />
->>>>>>> 98e30d6d041d95b99c20456ec241d4713900cc09
 
     <SearchView
         android:layout_width="301dp"

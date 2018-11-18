@@ -105,11 +105,11 @@
         android:text="Price : $15"
         android:textColor="@android:color/holo_orange_light"
         android:textSize="18sp"
-<<<<<<< HEAD
+
         app:layout_constraintBottom_toTopOf="@+id/productID"
-=======
+
         app:layout_constraintBottom_toBottomOf="parent"
->>>>>>> 98e30d6d041d95b99c20456ec241d4713900cc09
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
@@ -132,23 +132,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintTop_toBottomOf="@+id/productID" />
-=======
+
+        app:layout_constraintTop_toBottomOf="@+id/productID"
+
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.832" />
->>>>>>> 98e30d6d041d95b99c20456ec241d4713900cc09
+
 
     <SearchView
         android:layout_width="301dp"
         android:layout_height="43dp"
         android:background="@android:color/background_light"
-<<<<<<< HEAD
+
         app:layout_constraintBottom_toTopOf="@+id/ProductName"
-=======
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
->>>>>>> 98e30d6d041d95b99c20456ec241d4713900cc09
+
         app:layout_constraintEnd_toStartOf="@+id/imageButton5"
         app:layout_constraintHorizontal_bias="0.089"
         app:layout_constraintStart_toStartOf="parent"

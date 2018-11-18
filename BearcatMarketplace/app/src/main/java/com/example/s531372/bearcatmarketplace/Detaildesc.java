@@ -17,15 +17,15 @@ public class Detaildesc extends Activity {
         setContentView(R.layout.activity_detaildesc);
 
 
-
-        btn.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                new Database(getBaseContext()).addToCart(new Order());
-
-            }
-        });
+//
+//        btn.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                new Database(getBaseContext()).addToCart(new Order());
+//
+//            }
+//        });
 
 
 

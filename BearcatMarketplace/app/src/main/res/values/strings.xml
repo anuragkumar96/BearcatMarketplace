@@ -8,5 +8,10 @@
     <string name="CHAIRS">CHAIRS</string>
     <string name="TABLES">TABLES</string>
     <string name="input">Write a message</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">uaQlsM1oJaQepibKOeba9vtQGDBp7Y9AAkw8PhA1</string>
+    <string name="back4app_client_key">G4vmF7KKqhrHTyzTJG3Rz4kqdA6UB9UYEaJ1BjzK</string>
 </resources>
 

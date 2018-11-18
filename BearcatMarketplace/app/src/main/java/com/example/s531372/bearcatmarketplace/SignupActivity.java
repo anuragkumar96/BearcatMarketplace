@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
+
 import com.google.firebase.auth.FirebaseAuth;
 public class SignupActivity extends Activity implements View.OnClickListener {
     private Button btn;
@@ -38,7 +38,7 @@ public class SignupActivity extends Activity implements View.OnClickListener {
 
     btn.setOnClickListener(this);
     cancleTV.setOnClickListener(this);
-    firebaseAuth=FirebaseAuth.getInstance();
+    //firebaseAuth=FirebaseAuth.getInstance();
 
 
 
@@ -121,19 +121,19 @@ public class SignupActivity extends Activity implements View.OnClickListener {
             setAlert("Password should be at least 6 characters");
             return;
         }
-      firebaseAuth.createUserWithEmailAndPassword(userName,passWord).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-         @Override
-         public void onComplete(@NonNull Task<AuthResult> task) {
-             if(task.isSuccessful()){
-                 Toast.makeText(SignupActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
-             }
-             else{
-                 Toast.makeText(SignupActivity.this, "Registion unsuccessfully", Toast.LENGTH_SHORT).show();
-             }
-         }
-
-
-     });
+//      firebaseAuth.createUserWithEmailAndPassword(userName,passWord).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+//         @Override
+//         public void onComplete(@NonNull Task<AuthResult> task) {
+//             if(task.isSuccessful()){
+//                 Toast.makeText(SignupActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
+//             }
+//             else{
+//                 Toast.makeText(SignupActivity.this, "Registion unsuccessfully", Toast.LENGTH_SHORT).show();
+//             }
+//         }
+//
+//
+//     });
     }
 }
 
