@@ -1,5 +1,4 @@
 package com.example.s531372.bearcatmarketplace;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -17,21 +16,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
 public class SignupActivity extends Activity implements View.OnClickListener {
-
     private Button btn;
     private EditText emailET;
     private EditText passwordET;
     private TextView cancleTV;
     private TextView continueTV;
     private FirebaseAuth firebaseAuth;
-
-
-
     public static Activity signup;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -100,7 +92,6 @@ public class SignupActivity extends Activity implements View.OnClickListener {
         alert.setTitle("Warning..!");
         alert.show();
     }
-
     /**
      * Called when a view has been clicked.
      *
@@ -108,20 +99,13 @@ public class SignupActivity extends Activity implements View.OnClickListener {
      */
     @Override
     public void onClick(View view) {
-
-        if(view==btn){
-
+        if(view==btn) {
             registerUser();
         }
-
-
     }
-
     private void registerUser() {
-
         String userName = emailET.getText().toString().trim();
         String passWord = passwordET.getText().toString().trim();
-
         if(TextUtils.isEmpty(userName)){
             Toast.makeText(SignupActivity.this, "Email cannot be empty", Toast.LENGTH_SHORT).show();
             setAlert("Email cannot be empty");
@@ -137,29 +121,19 @@ public class SignupActivity extends Activity implements View.OnClickListener {
             setAlert("Password should be at least 6 characters");
             return;
         }
-
-
-
       firebaseAuth.createUserWithEmailAndPassword(userName,passWord).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
          @Override
          public void onComplete(@NonNull Task<AuthResult> task) {
-
              if(task.isSuccessful()){
-
                  Toast.makeText(SignupActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
              }
-
              else{
-
                  Toast.makeText(SignupActivity.this, "Registion unsuccessfully", Toast.LENGTH_SHORT).show();
              }
-
          }
 
 
      });
-
-
     }
 }
 

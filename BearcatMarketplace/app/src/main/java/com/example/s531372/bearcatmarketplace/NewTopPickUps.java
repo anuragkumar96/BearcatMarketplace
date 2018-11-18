@@ -15,7 +15,7 @@ public class NewTopPickUps extends Activity {
             "Table (Sold)",
             "Book",
             "Bike",
-            "Chair"
+            "Chair","Round table","Wooden table","java","java2","cycle1","cycle2","metal chair","arm chair"
 
     };
 
@@ -24,6 +24,15 @@ public class NewTopPickUps extends Activity {
             R.drawable.kjik,
             R.drawable.erjg,
             R.drawable.download,
+            R.drawable.table2,
+            R.drawable.table3,
+            R.drawable.javabook,
+            R.drawable.java2,
+            R.drawable.cycle2,
+            R.drawable.cycle3,
+            R.drawable.armchair,
+            R.drawable.metal,
+
 
     };
 
@@ -67,6 +76,60 @@ public class NewTopPickUps extends Activity {
                     Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
 
                 }
+                else if(position == 4)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+                else if(position == 5)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+                else if(position == 6)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+                else if(position == 7)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+                else if(position == 8)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+                else if(position == 9)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+                else if(position == 10)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+                else if(position == 11)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+                }
+                else if(position == 12)
+                {
+
+                    Toast.makeText(getApplicationContext(),"Item sold",Toast.LENGTH_LONG).show();
+
+                }
+
 
             }
         });
