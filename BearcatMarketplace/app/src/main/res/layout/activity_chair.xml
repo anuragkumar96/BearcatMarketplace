@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.195" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/ProductName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CHAIR"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/productID"
         android:layout_width="258dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -81,7 +81,7 @@
         android:text="Price : $25"
         android:textColor="@android:color/holo_orange_light"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintBottom_toTopOf="@+id/productID"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
 
@@ -99,13 +99,13 @@
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/productID" />
 
     <SearchView
         android:layout_width="301dp"
         android:layout_height="43dp"
         android:background="@android:color/background_light"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintBottom_toTopOf="@+id/ProductName"
         app:layout_constraintEnd_toStartOf="@+id/imageButton5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

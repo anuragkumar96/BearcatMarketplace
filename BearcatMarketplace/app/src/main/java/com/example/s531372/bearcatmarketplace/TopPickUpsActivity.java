@@ -4,15 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.app.Activity;
-import android.app.ListActivity;
-import android.os.Bundle;
-import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class TopPickUpsActivity extends Activity {
 
@@ -64,7 +58,7 @@ public class TopPickUpsActivity extends Activity {
 //                Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
                 if(position == 0)
                 {
-                    Intent init = new Intent(TopPickUpsActivity.this,detaildesc.class);
+                    Intent init = new Intent(TopPickUpsActivity.this,Detaildesc.class);
                     startActivity(init);
                 }
                 else if(position == 1)

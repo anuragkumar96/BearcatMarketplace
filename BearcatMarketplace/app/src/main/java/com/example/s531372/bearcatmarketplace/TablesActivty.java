@@ -17,7 +17,7 @@ public class TablesActivty extends Activity {
 
     public void tablesFn(View v){
 
-        Intent init = new Intent(this,detaildesc.class);
+        Intent init = new Intent(this,Detaildesc.class);
         startActivity(init);
     }
 }

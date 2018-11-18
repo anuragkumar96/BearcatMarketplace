@@ -15,7 +15,7 @@ public class ChatActivity extends Activity {
 
     public void CloseFn(View v){
 
-        Intent init = new Intent(this,detaildesc.class);
+        Intent init = new Intent(this,Detaildesc.class);
         startActivity(init);
     }
 }
