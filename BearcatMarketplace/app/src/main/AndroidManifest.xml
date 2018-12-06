@@ -29,7 +29,6 @@
             android:name=".Detaildesc"
             android:label="@string/title_activity_detaildesc" />
         <activity android:name=".ShopByCategory" />
-        <activity android:name=".TablesActivty" />
         <activity android:name=".ChatActivity" />
         <activity android:name=".CartActivity" />
         <activity android:name=".PaymentActivity" />
