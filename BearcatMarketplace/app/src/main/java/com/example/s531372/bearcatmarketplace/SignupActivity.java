@@ -16,29 +16,39 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
 import com.google.firebase.auth.FirebaseAuth;
+
+import Model.User;
+
 public class SignupActivity extends Activity implements View.OnClickListener {
     private Button btn;
     private EditText emailET;
-    private EditText passwordET;
+    private EditText passwordET,firstNameET,lastNameET,phoneET;
     private TextView cancleTV;
     private TextView continueTV;
     private FirebaseAuth firebaseAuth;
     public static Activity signup;
+    public static DataBaseUtils m_dataBaseUtils;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+        m_dataBaseUtils = new DataBaseUtils(SignupActivity.this);
 
         btn=findViewById(R.id.registerbtn);
         emailET = findViewById(R.id.emailET);
+        firstNameET = findViewById(R.id.firstNameET);
+        lastNameET = findViewById(R.id.lastNameET);
         passwordET = findViewById(R.id.passwordET);
+        phoneET = findViewById(R.id.phoneET);
+
         cancleTV = findViewById(R.id.cancleTV);
 
         continueTV = findViewById(R.id.continueTV);
 
-    btn.setOnClickListener(this);
-    cancleTV.setOnClickListener(this);
-    //firebaseAuth=FirebaseAuth.getInstance();
+        btn.setOnClickListener(this);
+        cancleTV.setOnClickListener(this);
+        //firebaseAuth=FirebaseAuth.getInstance();
 
 
 
@@ -134,6 +144,19 @@ public class SignupActivity extends Activity implements View.OnClickListener {
 //
 //
 //     });
+        if (m_dataBaseUtils.isUserPresent(userName))
+            setAlert("User already registered");
+        else
+        {
+            User user=new User(firstNameET.getText().toString().trim(),
+                    lastNameET.getText().toString().trim(),userName,passWord,phoneET.getText().toString().trim());
+            if(m_dataBaseUtils.saveUser(user)>0)
+                Toast.makeText(SignupActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
+            else
+                Toast.makeText(SignupActivity.this, "Registion unsuccessfully", Toast.LENGTH_SHORT).show();
+        }
+
+
     }
 }
 
