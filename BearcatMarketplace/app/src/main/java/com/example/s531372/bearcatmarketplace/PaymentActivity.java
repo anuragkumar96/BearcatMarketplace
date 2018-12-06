@@ -14,8 +14,10 @@ public class PaymentActivity extends Activity {
     }
 
     public void continueFn(View v) {
+        Utils.cartList.clear();
+        Intent intent=new Intent(PaymentActivity.this,TopPickUpsActivity.class);
+        intent.putExtra("from","First");
+        startActivity(intent);
 
-        Intent init = new Intent(this, NewTopPickUps.class);
-        startActivity(init);
     }
 }
