@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     android:background="#325438"
     tools:context=".FirstActivity">
 
@@ -41,7 +43,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="#FFFFFF"
-            android:hint="User Name"
+            android:hint="User Name/Email"
+            android:text=""
             android:inputType="text|textPersonName"
             android:padding="5dp"
             android:selectAllOnFocus="true"
@@ -53,6 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="#FFFFFF"
+            android:text=""
             android:hint="Password"
             android:inputType="textPersonName|textPassword"
             android:padding="5dp"
@@ -72,6 +76,7 @@
             <CheckBox
                 android:id="@+id/rememberMeCB"
                 android:layout_width="wrap_content"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:text="Remember me" />
 
@@ -80,6 +85,7 @@
                 android:layout_width="141dp"
                 android:layout_height="32dp"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:text="Forgot Password?"
                 android:textAlignment="textEnd"
                 android:textColor="#0000FF" />
@@ -129,4 +135,4 @@
 
 
     </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
