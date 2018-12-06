@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#325438">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@android:color/holo_orange_light"
+    android:layout_height="45dp">
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="CART" />
+</LinearLayout>
+    <ListView
+        android:id="@+id/list_view_cart"
+        android:layout_below="@id/top_ll"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_above="@id/button3"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/title"
+           android:layout_width="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="20dp"
+           android:text="Totla "
+           android:textColor="#ffffff"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:id="@+id/total_price"
+           android:textSize="20sp"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="20sp"
+           android:textStyle="bold"
+           android:text="Price : $100"
+           android:textColor="#ffffff"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </RelativeLayout>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="checkOutFn"
+        android:text="CHECK OUT"
+         />
+
+</RelativeLayout>

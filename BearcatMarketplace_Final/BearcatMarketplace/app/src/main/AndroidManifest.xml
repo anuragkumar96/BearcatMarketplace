@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.s531372.bearcatmarketplace">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".TopPickUpsActivity"
+            android:label="Top Pick Ups"/>
+        <activity
+            android:name=".NewTopPickUps"
+            android:label="@string/title_activity_new_top_pick_ups" />
+        <activity
+            android:name=".Detaildesc"
+            android:label="@string/title_activity_detaildesc" />
+        <activity android:name=".ShopByCategory" />
+        <activity android:name="FilterActivity"/>
+        <activity android:name=".TablesActivty" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".BikeActivity" />
+        <activity android:name=".ChairActivity" />
+        <activity android:name=".RoomActivity" />
+        <activity android:name=".BookActivity" />
+        <activity android:name=".CustomListAdapter"></activity>
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+    </application>
+
+</manifest>

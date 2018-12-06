@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "766654267752",
+    "firebase_url": "https://bearcat-b1291.firebaseio.com",
+    "project_id": "bearcat-b1291",
+    "storage_bucket": "bearcat-b1291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766654267752:android:9abf16c93ce91233",
+        "android_client_info": {
+          "package_name": "com.example.s531372.bearcatmarketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766654267752-b62tu1ag2cjh87ik26eo2d5j85i709du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP-ZX0K39nWifSYvVjE6LGO3pFGizwtrk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
