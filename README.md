@@ -29,8 +29,23 @@ Enter username resource : name of your username (email) EditText resource, skipp
 
 Enter password resource : same as above, but for password. Again, skip the R.id, eg. edit_text_password
 
-Enter username : username or email you'd use for testing, eg. test@mywebsite.com
+Enter username : username or email you'd use for testing, eg. abcde@gmail.com
 
-Enter password : password you'd use for testing, eg testTEST123
+Enter password : 123456
+
+If that doesnot work, please first create an account, then enter those details.
+
+
+## List of features and their status
+
+Login & Register - Complete
+Filter Feature - Complete
+Item Detail Description - Complete
+Displaying List of Item - Complete
+Add to Cart - Complete
+Checkout - Complete
+chat- future implementation
+
+
 
 
